@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="listener.MyListener"/>
+    </listeners>
+    <parameter name="browser" value=""/>
+<suite-files>
+    <suite-file path="Registration_PositiveScenarios.xml"/>
+<!--    <suite-file path="LoginPositiveScenarios.xml"/>-->
+<!--    <suite-file path="FogotPasswordPositiveScenarios.xml"/>-->
+<!--    <suite-file path="SearchForProductPositiveScenarios.xml"/>-->
+<!--    <suite-file path="SwitchCurrenciesPositiveScenarios.xml"/>-->
+<!--    <suite-file path="SelectCategoryPositiveScenarios.xml"/>-->
+<!--    <suite-file path="FilterWithColorPositiveScenarios.xml"/>-->
+<!--    <suite-file path="SelectDifferentTagsPositiveScenarios.xml"/>-->
+<!--    <suite-file path="AddProductToShoppingCartPositiveScenarios.xml"/>-->
+<!--    <suite-file path="AddProductToWishlistPositiveScenarios.xml"/>-->
+<!--    <suite-file path="AddProductToCompareListPositiveScenarios.xml"/>-->
+    <suite-file path="CreateOrderPositiveScenarios.xml"/>
+</suite-files>
+</suite>

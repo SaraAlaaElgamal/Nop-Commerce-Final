@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name = "Add Product To Compare List">
+        <classes>
+        <class name="testcases.TC11_AddProductToCompareList">
+                <methods>
+                    <include name="addProductToCompareList_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Check Login With Valid Email And Invalid Password">
+        <classes>
+            <class name="testcases.TC02_Login">
+                <methods>
+                    <include name="loginWithValidEmail_N"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Check Login With InValid Email And valid Password">
+        <classes>
+            <class name="testcases.TC02_Login">
+                <methods>
+                    <include name="loginWithValidPassword_N"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Check Login With Invalid Data">
+        <classes>
+            <class name="testcases.TC02_Login">
+                <methods>
+                    <include name="loginWithInvalidData_N"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
