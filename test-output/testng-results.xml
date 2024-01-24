@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="3" total="15" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-23T22:14:42 EET" name="All Test Suite" finished-at="2024-01-23T22:14:42 EET" duration-ms="0">
+  <suite started-at="2024-01-24T01:25:33 EET" name="All Test Suite (11)" finished-at="2024-01-24T01:25:46 EET" duration-ms="13734">
     <groups>
     </groups>
-  </suite> <!-- All Test Suite -->
-  <suite started-at="2024-01-23T22:14:20 EET" name="All Test Suite (0)" finished-at="2024-01-23T22:14:26 EET" duration-ms="6324">
-    <groups>
-    </groups>
-    <test started-at="2024-01-23T22:14:20 EET" name="Register With Valid Data" finished-at="2024-01-23T22:14:26 EET" duration-ms="6324">
-      <class name="testcases.TC01_Register">
-        <test-method is-config="true" signature="defineSuite()[pri:0, instance:testcases.TC01_Register@4f2d8175]" started-at="2024-01-23T22:14:19 EET" name="defineSuite" finished-at="2024-01-23T22:14:20 EET" duration-ms="483" status="PASS">
+    <test started-at="2024-01-24T01:25:33 EET" name="Create Order" finished-at="2024-01-24T01:25:46 EET" duration-ms="13734">
+      <class name="testcases.TC12_CreateOrder">
+        <test-method is-config="true" signature="defineSuite()[pri:0, instance:testcases.TC12_CreateOrder@2fe38b73]" started-at="2024-01-24T01:25:33 EET" name="defineSuite" finished-at="2024-01-24T01:25:33 EET" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defineSuite -->
-        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC01_Register@4f2d8175]" started-at="2024-01-23T22:14:20 EET" name="setupDriver" finished-at="2024-01-23T22:14:22 EET" duration-ms="2769" status="PASS">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC12_CreateOrder@2fe38b73]" started-at="2024-01-24T01:25:33 EET" name="setupDriver" finished-at="2024-01-24T01:25:35 EET" duration-ms="1907" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,42 +22,460 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method signature="registerNewUserWithValidData_P()[pri:1, instance:testcases.TC01_Register@4f2d8175]" started-at="2024-01-23T22:14:22 EET" name="registerNewUserWithValidData_P" description="Register new user with Valid Data" finished-at="2024-01-23T22:14:26 EET" duration-ms="3354" status="PASS">
+        <test-method signature="createOrder_P()[pri:1, instance:testcases.TC12_CreateOrder@2fe38b73]" started-at="2024-01-24T01:25:35 EET" name="createOrder_P" description="Create Order" finished-at="2024-01-24T01:25:46 EET" duration-ms="11713" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerNewUserWithValidData_P -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC01_Register@4f2d8175]" started-at="2024-01-23T22:14:26 EET" name="getResult" finished-at="2024-01-23T22:14:26 EET" duration-ms="4" status="PASS">
+        </test-method> <!-- createOrder_P -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC12_CreateOrder@2fe38b73]" started-at="2024-01-24T01:25:46 EET" name="getResult" finished-at="2024-01-24T01:25:46 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=registerNewUserWithValidData_P status=SUCCESS method=TC01_Register.registerNewUserWithValidData_P()[pri:1, instance:testcases.TC01_Register@4f2d8175] output={null}]]]>
+                <![CDATA[[TestResult name=createOrder_P status=SUCCESS method=TC12_CreateOrder.createOrder_P()[pri:1, instance:testcases.TC12_CreateOrder@2fe38b73] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC01_Register@4f2d8175]" started-at="2024-01-23T22:14:26 EET" name="tearDown" finished-at="2024-01-23T22:14:26 EET" duration-ms="88" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC12_CreateOrder@2fe38b73]" started-at="2024-01-24T01:25:46 EET" name="tearDown" finished-at="2024-01-24T01:25:46 EET" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endSuite()[pri:0, instance:testcases.TC01_Register@4f2d8175]" started-at="2024-01-23T22:14:26 EET" name="endSuite" finished-at="2024-01-23T22:14:26 EET" duration-ms="452" status="PASS">
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:testcases.TC12_CreateOrder@2fe38b73]" started-at="2024-01-24T01:25:46 EET" name="endSuite" finished-at="2024-01-24T01:25:47 EET" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- testcases.TC12_CreateOrder -->
+    </test> <!-- Create Order -->
+  </suite> <!-- All Test Suite (11) -->
+  <suite started-at="2024-01-24T01:25:28 EET" name="All Test Suite (10)" finished-at="2024-01-24T01:25:33 EET" duration-ms="4625">
+    <groups>
+    </groups>
+    <test started-at="2024-01-24T01:25:28 EET" name="Add Product To Compare List" finished-at="2024-01-24T01:25:33 EET" duration-ms="4625">
+      <class name="testcases.TC11_AddProductToCompareList">
+        <test-method is-config="true" signature="defineSuite()[pri:0, instance:testcases.TC11_AddProductToCompareList@42ef5216]" started-at="2024-01-24T01:25:28 EET" name="defineSuite" finished-at="2024-01-24T01:25:28 EET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuite -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC11_AddProductToCompareList@42ef5216]" started-at="2024-01-24T01:25:28 EET" name="setupDriver" finished-at="2024-01-24T01:25:30 EET" duration-ms="1882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="addProductToCompareList_P()[pri:1, instance:testcases.TC11_AddProductToCompareList@42ef5216]" started-at="2024-01-24T01:25:30 EET" name="addProductToCompareList_P" description="Add Product To Compare List" finished-at="2024-01-24T01:25:32 EET" duration-ms="2618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCompareList_P -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC11_AddProductToCompareList@42ef5216]" started-at="2024-01-24T01:25:32 EET" name="getResult" finished-at="2024-01-24T01:25:32 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductToCompareList_P status=SUCCESS method=TC11_AddProductToCompareList.addProductToCompareList_P()[pri:1, instance:testcases.TC11_AddProductToCompareList@42ef5216] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC11_AddProductToCompareList@42ef5216]" started-at="2024-01-24T01:25:32 EET" name="tearDown" finished-at="2024-01-24T01:25:33 EET" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:testcases.TC11_AddProductToCompareList@42ef5216]" started-at="2024-01-24T01:25:33 EET" name="endSuite" finished-at="2024-01-24T01:25:33 EET" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- testcases.TC11_AddProductToCompareList -->
+    </test> <!-- Add Product To Compare List -->
+  </suite> <!-- All Test Suite (10) -->
+  <suite started-at="2024-01-24T01:24:57 EET" name="All Test Suite (3)" finished-at="2024-01-24T01:25:01 EET" duration-ms="3929">
+    <groups>
+    </groups>
+    <test started-at="2024-01-24T01:24:57 EET" name="Search for product with matching results" finished-at="2024-01-24T01:25:01 EET" duration-ms="3929">
+      <class name="testcases.TC04_SearchForProduct">
+        <test-method is-config="true" signature="defineSuite()[pri:0, instance:testcases.TC04_SearchForProduct@69d902f9]" started-at="2024-01-24T01:24:57 EET" name="defineSuite" finished-at="2024-01-24T01:24:57 EET" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuite -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC04_SearchForProduct@69d902f9]" started-at="2024-01-24T01:24:57 EET" name="setupDriver" finished-at="2024-01-24T01:24:58 EET" duration-ms="1487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="searchProduct_P()[pri:1, instance:testcases.TC04_SearchForProduct@69d902f9]" started-at="2024-01-24T01:24:58 EET" name="searchProduct_P" description="Search for product with matching results" finished-at="2024-01-24T01:25:01 EET" duration-ms="2344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct_P -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC04_SearchForProduct@69d902f9]" started-at="2024-01-24T01:25:01 EET" name="getResult" finished-at="2024-01-24T01:25:01 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct_P status=SUCCESS method=TC04_SearchForProduct.searchProduct_P()[pri:1, instance:testcases.TC04_SearchForProduct@69d902f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC04_SearchForProduct@69d902f9]" started-at="2024-01-24T01:25:01 EET" name="tearDown" finished-at="2024-01-24T01:25:01 EET" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:testcases.TC04_SearchForProduct@69d902f9]" started-at="2024-01-24T01:25:01 EET" name="endSuite" finished-at="2024-01-24T01:25:01 EET" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- testcases.TC04_SearchForProduct -->
+    </test> <!-- Search for product with matching results -->
+  </suite> <!-- All Test Suite (3) -->
+  <suite started-at="2024-01-24T01:25:01 EET" name="All Test Suite (4)" finished-at="2024-01-24T01:25:04 EET" duration-ms="3184">
+    <groups>
+    </groups>
+    <test started-at="2024-01-24T01:25:01 EET" name="Switch Currency" finished-at="2024-01-24T01:25:04 EET" duration-ms="3184">
+      <class name="testcases.TC05_SwitchCurrencies">
+        <test-method is-config="true" signature="defineSuite()[pri:0, instance:testcases.TC05_SwitchCurrencies@637d111d]" started-at="2024-01-24T01:25:01 EET" name="defineSuite" finished-at="2024-01-24T01:25:01 EET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuite -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC05_SwitchCurrencies@637d111d]" started-at="2024-01-24T01:25:01 EET" name="setupDriver" finished-at="2024-01-24T01:25:02 EET" duration-ms="1424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="switchCurrency_P()[pri:1, instance:testcases.TC05_SwitchCurrencies@637d111d]" started-at="2024-01-24T01:25:02 EET" name="switchCurrency_P" description="Switch Currency" finished-at="2024-01-24T01:25:04 EET" duration-ms="1658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchCurrency_P -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC05_SwitchCurrencies@637d111d]" started-at="2024-01-24T01:25:04 EET" name="getResult" finished-at="2024-01-24T01:25:04 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=switchCurrency_P status=SUCCESS method=TC05_SwitchCurrencies.switchCurrency_P()[pri:1, instance:testcases.TC05_SwitchCurrencies@637d111d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC05_SwitchCurrencies@637d111d]" started-at="2024-01-24T01:25:04 EET" name="tearDown" finished-at="2024-01-24T01:25:04 EET" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:testcases.TC05_SwitchCurrencies@637d111d]" started-at="2024-01-24T01:25:04 EET" name="endSuite" finished-at="2024-01-24T01:25:04 EET" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- testcases.TC05_SwitchCurrencies -->
+    </test> <!-- Switch Currency -->
+  </suite> <!-- All Test Suite (4) -->
+  <suite started-at="2024-01-24T01:25:04 EET" name="All Test Suite (5)" finished-at="2024-01-24T01:25:08 EET" duration-ms="3770">
+    <groups>
+    </groups>
+    <test started-at="2024-01-24T01:25:04 EET" name="Select Random Category" finished-at="2024-01-24T01:25:08 EET" duration-ms="3770">
+      <class name="testcases.TC06_SelectCategory">
+        <test-method is-config="true" signature="defineSuite()[pri:0, instance:testcases.TC06_SelectCategory@65930e02]" started-at="2024-01-24T01:25:04 EET" name="defineSuite" finished-at="2024-01-24T01:25:04 EET" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuite -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC06_SelectCategory@65930e02]" started-at="2024-01-24T01:25:04 EET" name="setupDriver" finished-at="2024-01-24T01:25:06 EET" duration-ms="1379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="selectCategory_P()[pri:1, instance:testcases.TC06_SelectCategory@65930e02]" started-at="2024-01-24T01:25:06 EET" name="selectCategory_P" description="Select Random Category" finished-at="2024-01-24T01:25:08 EET" duration-ms="2293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCategory_P -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC06_SelectCategory@65930e02]" started-at="2024-01-24T01:25:08 EET" name="getResult" finished-at="2024-01-24T01:25:08 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectCategory_P status=SUCCESS method=TC06_SelectCategory.selectCategory_P()[pri:1, instance:testcases.TC06_SelectCategory@65930e02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC06_SelectCategory@65930e02]" started-at="2024-01-24T01:25:08 EET" name="tearDown" finished-at="2024-01-24T01:25:08 EET" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:testcases.TC06_SelectCategory@65930e02]" started-at="2024-01-24T01:25:08 EET" name="endSuite" finished-at="2024-01-24T01:25:08 EET" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- testcases.TC06_SelectCategory -->
+    </test> <!-- Select Random Category -->
+  </suite> <!-- All Test Suite (5) -->
+  <suite started-at="2024-01-24T01:25:08 EET" name="All Test Suite (6)" finished-at="2024-01-24T01:25:13 EET" duration-ms="4567">
+    <groups>
+    </groups>
+    <test started-at="2024-01-24T01:25:08 EET" name="Filter With Color" finished-at="2024-01-24T01:25:13 EET" duration-ms="4567">
+      <class name="testcases.TC07_FilterWithColor">
+        <test-method is-config="true" signature="defineSuite()[pri:0, instance:testcases.TC07_FilterWithColor@5fa9247b]" started-at="2024-01-24T01:25:08 EET" name="defineSuite" finished-at="2024-01-24T01:25:08 EET" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuite -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC07_FilterWithColor@5fa9247b]" started-at="2024-01-24T01:25:08 EET" name="setupDriver" finished-at="2024-01-24T01:25:10 EET" duration-ms="1403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="filterWithColor_P()[pri:1, instance:testcases.TC07_FilterWithColor@5fa9247b]" started-at="2024-01-24T01:25:10 EET" name="filterWithColor_P" description="Filter With Color" finished-at="2024-01-24T01:25:13 EET" duration-ms="3053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterWithColor_P -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC07_FilterWithColor@5fa9247b]" started-at="2024-01-24T01:25:13 EET" name="getResult" finished-at="2024-01-24T01:25:13 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterWithColor_P status=SUCCESS method=TC07_FilterWithColor.filterWithColor_P()[pri:1, instance:testcases.TC07_FilterWithColor@5fa9247b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC07_FilterWithColor@5fa9247b]" started-at="2024-01-24T01:25:13 EET" name="tearDown" finished-at="2024-01-24T01:25:13 EET" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:testcases.TC07_FilterWithColor@5fa9247b]" started-at="2024-01-24T01:25:13 EET" name="endSuite" finished-at="2024-01-24T01:25:13 EET" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- testcases.TC07_FilterWithColor -->
+    </test> <!-- Filter With Color -->
+  </suite> <!-- All Test Suite (6) -->
+  <suite started-at="2024-01-24T01:25:13 EET" name="All Test Suite (7)" finished-at="2024-01-24T01:25:17 EET" duration-ms="4263">
+    <groups>
+    </groups>
+    <test started-at="2024-01-24T01:25:13 EET" name="Select Random Tag" finished-at="2024-01-24T01:25:17 EET" duration-ms="4263">
+      <class name="testcases.TC08_SelectDifferentTags">
+        <test-method is-config="true" signature="defineSuite()[pri:0, instance:testcases.TC08_SelectDifferentTags@53ddabc6]" started-at="2024-01-24T01:25:13 EET" name="defineSuite" finished-at="2024-01-24T01:25:13 EET" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuite -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC08_SelectDifferentTags@53ddabc6]" started-at="2024-01-24T01:25:13 EET" name="setupDriver" finished-at="2024-01-24T01:25:15 EET" duration-ms="1894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="selectTag_P()[pri:1, instance:testcases.TC08_SelectDifferentTags@53ddabc6]" started-at="2024-01-24T01:25:15 EET" name="selectTag_P" description="Select Random Tag" finished-at="2024-01-24T01:25:17 EET" duration-ms="2270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTag_P -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC08_SelectDifferentTags@53ddabc6]" started-at="2024-01-24T01:25:17 EET" name="getResult" finished-at="2024-01-24T01:25:17 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectTag_P status=SUCCESS method=TC08_SelectDifferentTags.selectTag_P()[pri:1, instance:testcases.TC08_SelectDifferentTags@53ddabc6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC08_SelectDifferentTags@53ddabc6]" started-at="2024-01-24T01:25:17 EET" name="tearDown" finished-at="2024-01-24T01:25:17 EET" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:testcases.TC08_SelectDifferentTags@53ddabc6]" started-at="2024-01-24T01:25:17 EET" name="endSuite" finished-at="2024-01-24T01:25:17 EET" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- testcases.TC08_SelectDifferentTags -->
+    </test> <!-- Select Random Tag -->
+  </suite> <!-- All Test Suite (7) -->
+  <suite started-at="2024-01-24T01:25:17 EET" name="All Test Suite (8)" finished-at="2024-01-24T01:25:23 EET" duration-ms="5394">
+    <groups>
+    </groups>
+    <test started-at="2024-01-24T01:25:17 EET" name="Add Product To Shopping Cart" finished-at="2024-01-24T01:25:23 EET" duration-ms="5394">
+      <class name="testcases.TC09_AddProductToShoppingCart">
+        <test-method is-config="true" signature="defineSuite()[pri:0, instance:testcases.TC09_AddProductToShoppingCart@6f2864c3]" started-at="2024-01-24T01:25:17 EET" name="defineSuite" finished-at="2024-01-24T01:25:17 EET" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuite -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC09_AddProductToShoppingCart@6f2864c3]" started-at="2024-01-24T01:25:17 EET" name="setupDriver" finished-at="2024-01-24T01:25:19 EET" duration-ms="1354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="addProductToShoppingCard_P()[pri:1, instance:testcases.TC09_AddProductToShoppingCart@6f2864c3]" started-at="2024-01-24T01:25:19 EET" name="addProductToShoppingCard_P" description="Add Product To Shopping Cart" finished-at="2024-01-24T01:25:23 EET" duration-ms="3930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToShoppingCard_P -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC09_AddProductToShoppingCart@6f2864c3]" started-at="2024-01-24T01:25:23 EET" name="getResult" finished-at="2024-01-24T01:25:23 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductToShoppingCard_P status=SUCCESS method=TC09_AddProductToShoppingCart.addProductToShoppingCard_P()[pri:1, instance:testcases.TC09_AddProductToShoppingCart@6f2864c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC09_AddProductToShoppingCart@6f2864c3]" started-at="2024-01-24T01:25:23 EET" name="tearDown" finished-at="2024-01-24T01:25:23 EET" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:testcases.TC09_AddProductToShoppingCart@6f2864c3]" started-at="2024-01-24T01:25:23 EET" name="endSuite" finished-at="2024-01-24T01:25:23 EET" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- testcases.TC09_AddProductToShoppingCart -->
+    </test> <!-- Add Product To Shopping Cart -->
+  </suite> <!-- All Test Suite (8) -->
+  <suite started-at="2024-01-24T01:25:23 EET" name="All Test Suite (9)" finished-at="2024-01-24T01:25:28 EET" duration-ms="4850">
+    <groups>
+    </groups>
+    <test started-at="2024-01-24T01:25:23 EET" name="Add Product To Wish List" finished-at="2024-01-24T01:25:28 EET" duration-ms="4850">
+      <class name="testcases.TC10_AddProductToWishList">
+        <test-method is-config="true" signature="defineSuite()[pri:0, instance:testcases.TC10_AddProductToWishList@5cba890e]" started-at="2024-01-24T01:25:23 EET" name="defineSuite" finished-at="2024-01-24T01:25:23 EET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuite -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC10_AddProductToWishList@5cba890e]" started-at="2024-01-24T01:25:23 EET" name="setupDriver" finished-at="2024-01-24T01:25:25 EET" duration-ms="1904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="addProductToWishList_P()[pri:1, instance:testcases.TC10_AddProductToWishList@5cba890e]" started-at="2024-01-24T01:25:25 EET" name="addProductToWishList_P" description="Add Product To Wishlist" finished-at="2024-01-24T01:25:28 EET" duration-ms="2839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToWishList_P -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC10_AddProductToWishList@5cba890e]" started-at="2024-01-24T01:25:28 EET" name="getResult" finished-at="2024-01-24T01:25:28 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductToWishList_P status=SUCCESS method=TC10_AddProductToWishList.addProductToWishList_P()[pri:1, instance:testcases.TC10_AddProductToWishList@5cba890e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC10_AddProductToWishList@5cba890e]" started-at="2024-01-24T01:25:28 EET" name="tearDown" finished-at="2024-01-24T01:25:28 EET" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:testcases.TC10_AddProductToWishList@5cba890e]" started-at="2024-01-24T01:25:28 EET" name="endSuite" finished-at="2024-01-24T01:25:28 EET" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- testcases.TC10_AddProductToWishList -->
+    </test> <!-- Add Product To Wish List -->
+  </suite> <!-- All Test Suite (9) -->
+  <suite started-at="2024-01-24T01:25:47 EET" name="All Test Suite" finished-at="2024-01-24T01:25:47 EET" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- All Test Suite -->
+  <suite started-at="2024-01-24T01:24:41 EET" name="All Test Suite (0)" finished-at="2024-01-24T01:24:49 EET" duration-ms="7620">
+    <groups>
+    </groups>
+    <test started-at="2024-01-24T01:24:41 EET" name="Register With Valid Data" finished-at="2024-01-24T01:24:49 EET" duration-ms="7620">
+      <class name="testcases.TC01_Register">
+        <test-method is-config="true" signature="defineSuite()[pri:0, instance:testcases.TC01_Register@1324e70a]" started-at="2024-01-24T01:24:41 EET" name="defineSuite" finished-at="2024-01-24T01:24:41 EET" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuite -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC01_Register@1324e70a]" started-at="2024-01-24T01:24:41 EET" name="setupDriver" finished-at="2024-01-24T01:24:46 EET" duration-ms="4364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="registerNewUserWithValidData_P()[pri:1, instance:testcases.TC01_Register@1324e70a]" started-at="2024-01-24T01:24:46 EET" name="registerNewUserWithValidData_P" description="Register new user with Valid Data" finished-at="2024-01-24T01:24:49 EET" duration-ms="3020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUserWithValidData_P -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC01_Register@1324e70a]" started-at="2024-01-24T01:24:49 EET" name="getResult" finished-at="2024-01-24T01:24:49 EET" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerNewUserWithValidData_P status=SUCCESS method=TC01_Register.registerNewUserWithValidData_P()[pri:1, instance:testcases.TC01_Register@1324e70a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC01_Register@1324e70a]" started-at="2024-01-24T01:24:49 EET" name="tearDown" finished-at="2024-01-24T01:24:49 EET" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:testcases.TC01_Register@1324e70a]" started-at="2024-01-24T01:24:49 EET" name="endSuite" finished-at="2024-01-24T01:24:50 EET" duration-ms="539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endSuite -->
       </class> <!-- testcases.TC01_Register -->
     </test> <!-- Register With Valid Data -->
   </suite> <!-- All Test Suite (0) -->
-  <suite started-at="2024-01-23T22:14:26 EET" name="All Test Suite (1)" finished-at="2024-01-23T22:14:42 EET" duration-ms="15784">
+  <suite started-at="2024-01-24T01:24:50 EET" name="All Test Suite (1)" finished-at="2024-01-24T01:24:53 EET" duration-ms="3474">
     <groups>
     </groups>
-    <test started-at="2024-01-23T22:14:26 EET" name="Create Order" finished-at="2024-01-23T22:14:42 EET" duration-ms="15784">
-      <class name="testcases.TC12_CreateOrder">
-        <test-method is-config="true" signature="defineSuite()[pri:0, instance:testcases.TC12_CreateOrder@2a191f83]" started-at="2024-01-23T22:14:26 EET" name="defineSuite" finished-at="2024-01-23T22:14:26 EET" duration-ms="10" status="PASS">
+    <test started-at="2024-01-24T01:24:50 EET" name="Check Login with Valid Date" finished-at="2024-01-24T01:24:53 EET" duration-ms="3474">
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="defineSuite()[pri:0, instance:testcases.TC02_Login@77f529a6]" started-at="2024-01-24T01:24:50 EET" name="defineSuite" finished-at="2024-01-24T01:24:50 EET" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defineSuite -->
-        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC12_CreateOrder@2a191f83]" started-at="2024-01-23T22:14:26 EET" name="setupDriver" finished-at="2024-01-23T22:14:28 EET" duration-ms="1875" status="PASS">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@77f529a6]" started-at="2024-01-24T01:24:50 EET" name="setupDriver" finished-at="2024-01-24T01:24:51 EET" duration-ms="1847" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,30 +486,76 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method signature="createOrder_P()[pri:1, instance:testcases.TC12_CreateOrder@2a191f83]" started-at="2024-01-23T22:14:28 EET" name="createOrder_P" description="Create Order" finished-at="2024-01-23T22:14:42 EET" duration-ms="13795" status="PASS">
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@77f529a6]" started-at="2024-01-24T01:24:51 EET" name="loginWithValidData_P" description="Login with Valid Data" finished-at="2024-01-24T01:24:53 EET" duration-ms="1519" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrder_P -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC12_CreateOrder@2a191f83]" started-at="2024-01-23T22:14:42 EET" name="getResult" finished-at="2024-01-23T22:14:42 EET" duration-ms="1" status="PASS">
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC02_Login@77f529a6]" started-at="2024-01-24T01:24:53 EET" name="getResult" finished-at="2024-01-24T01:24:53 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=createOrder_P status=SUCCESS method=TC12_CreateOrder.createOrder_P()[pri:1, instance:testcases.TC12_CreateOrder@2a191f83] output={null}]]]>
+                <![CDATA[[TestResult name=loginWithValidData_P status=SUCCESS method=TC02_Login.loginWithValidData_P()[pri:1, instance:testcases.TC02_Login@77f529a6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC12_CreateOrder@2a191f83]" started-at="2024-01-23T22:14:42 EET" name="tearDown" finished-at="2024-01-23T22:14:42 EET" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Login@77f529a6]" started-at="2024-01-24T01:24:53 EET" name="tearDown" finished-at="2024-01-24T01:24:53 EET" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endSuite()[pri:0, instance:testcases.TC12_CreateOrder@2a191f83]" started-at="2024-01-23T22:14:42 EET" name="endSuite" finished-at="2024-01-23T22:14:42 EET" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:testcases.TC02_Login@77f529a6]" started-at="2024-01-24T01:24:53 EET" name="endSuite" finished-at="2024-01-24T01:24:53 EET" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endSuite -->
-      </class> <!-- testcases.TC12_CreateOrder -->
-    </test> <!-- Create Order -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- Check Login with Valid Date -->
   </suite> <!-- All Test Suite (1) -->
+  <suite started-at="2024-01-24T01:24:53 EET" name="All Test Suite (2)" finished-at="2024-01-24T01:24:57 EET" duration-ms="3518">
+    <groups>
+    </groups>
+    <test started-at="2024-01-24T01:24:53 EET" name="Forgot Password" finished-at="2024-01-24T01:24:57 EET" duration-ms="3518">
+      <class name="testcases.TC03_ForgotPassword">
+        <test-method is-config="true" signature="defineSuite()[pri:0, instance:testcases.TC03_ForgotPassword@118e2487]" started-at="2024-01-24T01:24:53 EET" name="defineSuite" finished-at="2024-01-24T01:24:53 EET" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuite -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC03_ForgotPassword@118e2487]" started-at="2024-01-24T01:24:53 EET" name="setupDriver" finished-at="2024-01-24T01:24:55 EET" duration-ms="1877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="forgotPassword_P()[pri:1, instance:testcases.TC03_ForgotPassword@118e2487]" started-at="2024-01-24T01:24:55 EET" name="forgotPassword_P" description="Forgot Password" finished-at="2024-01-24T01:24:57 EET" duration-ms="1546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword_P -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC03_ForgotPassword@118e2487]" started-at="2024-01-24T01:24:57 EET" name="getResult" finished-at="2024-01-24T01:24:57 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgotPassword_P status=SUCCESS method=TC03_ForgotPassword.forgotPassword_P()[pri:1, instance:testcases.TC03_ForgotPassword@118e2487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC03_ForgotPassword@118e2487]" started-at="2024-01-24T01:24:57 EET" name="tearDown" finished-at="2024-01-24T01:24:57 EET" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:testcases.TC03_ForgotPassword@118e2487]" started-at="2024-01-24T01:24:57 EET" name="endSuite" finished-at="2024-01-24T01:24:57 EET" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- testcases.TC03_ForgotPassword -->
+    </test> <!-- Forgot Password -->
+  </suite> <!-- All Test Suite (2) -->
 </testng-results>
