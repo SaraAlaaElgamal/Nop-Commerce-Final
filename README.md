@@ -27,7 +27,7 @@ NopCommerce is free, and it is the most popular ASP.NET eCommerce platform. The 
 To set up the NopCommerce application locally, follow these steps:
 
 1. Clone the repository:
-*   git clone https://github.com/SaraAlaaElgamal/Nop-Commerce-Final
+*   git clone https://github.com/SaraAlaaElgamal/NopCommerce
 2. Navigate to the project directory:
 *   cd Nop-Commerce-Final
 3. Install dependencies:
